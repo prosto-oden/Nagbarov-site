@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    
+    <section id="about">
+        <h1>Обо мне</h1>
+        <p>Привет! Я веб-разработчик, специализируюсь на создании красивых и функциональных сайтов.</p>
+        <img src="a.jpg" height="250" width="250" alt="Фото разработчика">
+    </section>
+    
+    
+    <section id="portfolio">
+        <h1>Мое портфолио</h1>
+        <div class="projects">
+            <div class="project">
+                <img src="assets/project1.png" alt="Проект 1">
+                <h2>Проект 1</h2>
+                <p>Описание первого проекта</p>
+            </div>
+            <div class="project">
+                <img src="assets/project2.png" alt="Проект 2">
+                <h2>Проект 2</h2>
+                <p>Описание второго проекта</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <h1>Свяжитесь со мной</h1>
+        <form action="#" method="post">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message"></textarea><br>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    
+    
+    <footer>
+        © 2025 Мой Портфолио
+    </footer>
+</body>
+</html>
